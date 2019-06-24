@@ -1,6 +1,5 @@
 const {Given,When,Then} = require('cucumber');
-// debugger;
-require('skiptag');
+require('cucumberjs-skiptag');
 
 Given('This is given',()=>{
 console.log('inside given');

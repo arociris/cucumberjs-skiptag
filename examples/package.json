@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --inspect node_modules/cucumber/bin/cucumber-js --skiptags @Test  features"
+    "test-single": "cucumber-js --skiptags @Tag1  features",
+    "test-multi": "cucumber-js --skiptags @Tag1,@Tag2  features"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cucumber": "https://github.com/wonderbill/cucumber-js.git#feature/issue-727-retry"
+    "cucumber": "https://github.com/wonderbill/cucumber-js.git#feature/issue-727-retry",
+    "cucumberjs-skiptag": "^1.0.0"
   }
 }

@@ -7,7 +7,13 @@ Feature: Test feature
    When This is when
    Then This is then
 
-   @Test 
+   @Tag1
+   Scenario: Should get skipped
+   Given This is given
+   When This is when
+   Then This is then
+
+   @Tag2  
    Scenario: Should get skipped
    Given This is given
    When This is when

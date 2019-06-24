@@ -1,6 +1,6 @@
 {
   "name": "cucumberjs-skiptag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package will serve as an added plugin to your cucumber tests but skipping test cases by matching them with tags.",
   "main": "index.js",
   "scripts": {

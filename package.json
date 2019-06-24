@@ -20,7 +20,7 @@
     "url": "https://github.com/jain-neeeraj/cucumberjs-skiptag/issues"
   },
   "homepage": "https://github.com/jain-neeeraj/cucumberjs-skiptag#readme",
-  "dependencies": {
+  "devDependencies": {
     "cucumber": "^5.1.0"
   }
 }

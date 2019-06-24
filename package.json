@@ -1,0 +1,26 @@
+{
+  "name": "cucumberjs-skiptag",
+  "version": "1.0.0",
+  "description": "This package will serve as an added plugin to your cucumber tests but skipping test cases by matching them with tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jain-neeeraj/cucumberjs-skiptag.git"
+  },
+  "keywords": [
+    "cucumber-js",
+    "skiptag"
+  ],
+  "author": "Neeraj Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jain-neeeraj/cucumberjs-skiptag/issues"
+  },
+  "homepage": "https://github.com/jain-neeeraj/cucumberjs-skiptag#readme",
+  "dependencies": {
+    "cucumber": "^5.1.0"
+  }
+}

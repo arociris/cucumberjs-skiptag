@@ -1,0 +1,14 @@
+{
+  "name": "test-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect node_modules/cucumber/bin/cucumber-js --skiptags @Test  features"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "https://github.com/wonderbill/cucumber-js.git#feature/issue-727-retry"
+  }
+}
